@@ -12,6 +12,7 @@ services:
       MYSQL_DATABASE: "profit"
       MYSQL_USER: "profit"
       MYSQL_PASSWORD: "profit"
+      LANG: C.UTF-8
     ports:
       - '3306:3306'
 
